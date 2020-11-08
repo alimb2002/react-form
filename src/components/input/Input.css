@@ -1,0 +1,37 @@
+.Input {
+  margin: 1em 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Input label {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 1em 0;
+}
+
+.Input .inputElement {
+  outline: none;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 36px;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+.Input .inputElement:focus {
+  border-color: #aaa;
+}
+
+.invalid {
+  border-color: red;
+  background-color: #fda49a;
+}
+/*# sourceMappingURL=Input.css.map */
